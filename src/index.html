@@ -14,7 +14,7 @@
 			rel="icon"
 			type="image/png"
 			sizes="32x32"
-			href="./images/favicon-32x32.png" />
+			href="./assets/favicon-32x32.png" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -25,7 +25,52 @@
 
 	<body>
 		<main>
-			<div class="h-[200px] w-[200px] bg-zinc-800"></div>
+			<header>
+				<picture class="">
+					<source
+						srcset="
+							./assets/desktop/image-hero@2x.jpg,
+							./assets/desktop/image-hero.jpg
+						"
+						type="image/jpg"
+						media="(min-width: 1024px)" />
+					<source
+						srcset="
+							./assets/tablet/image-hero@2x.jpg,
+							./assets/tablet/image-hero,jpg
+						"
+						type="image/jpg"
+						media="(min-width: 640px)" />
+					<source
+						srcset="
+							./assets/mobile/image-hero@2x.jpg,
+							./assets/mobile/image-hero,jpg
+						"
+						type="image/jpg" />
+					<img
+						src="/assets/mobile/image-hero.jpg"
+						alt="two people in museum looking at art" />
+				</picture>
+				<h1>MODERN ART GALLERY</h1>
+				<p>
+					The arts in the collection of the Modern Art Gallery all started
+					from a spark of inspiration. Will these pieces inspire you? Visit
+					us and find out.
+				</p>
+				<a href="#">
+					<div>OUR LOCATION</div>
+					<div>
+						<svg
+							width="10"
+							height="24"
+							xmlns="http://www.w3.org/2000/svg">
+							<path stroke="#FFF" fill="none" d="m1 0 8 12-8 12" />
+						</svg>
+					</div>
+				</a>
+			</header>
+			<main></main>
+			<footer></footer>
 		</main>
 		<script src="" async></script>
 		<!-- May use defer instead of async in script tag -->

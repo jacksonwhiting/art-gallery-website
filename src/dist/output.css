@@ -530,7 +530,7 @@ video {
   width: 200px;
 }
 
-.bg-zinc-800 {
+.bg-blue-300 {
   --tw-bg-opacity: 1;
-  background-color: rgb(39 39 42 / var(--tw-bg-opacity));
+  background-color: rgb(147 197 253 / var(--tw-bg-opacity));
 }

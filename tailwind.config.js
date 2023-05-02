@@ -19,8 +19,8 @@ module.exports = {
 				},
 			},
 			fontFamily: {
-				fontFamilyShoulders: ["Big Shoulders Dispaly", cursive],
-				fontFamilyOutfit: ["outfit", sans - serif],
+				fontFamilyShoulders: ["Big Shoulders Display", "cursive"],
+				fontFamilyOutfit: ["outfit", "sans-serif"],
 			},
 			fontSize: {
 				hdgXL: ["96px", "88px"],
