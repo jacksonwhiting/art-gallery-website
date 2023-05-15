@@ -25,8 +25,8 @@ module.exports = {
 			fontSize: {
 				hdgXL: ["96px", "88px"],
 				hdgL: ["70px", "70px"],
-				hdgM: ["60", "50px"],
-				hdgS: ["36", "36"],
+				hdgM: ["60px", "50px"],
+				hdgS: ["36px", "36px"],
 				bodyM: ["22px", "32px"],
 				bodyS: ["18px", "28px"],
 			},

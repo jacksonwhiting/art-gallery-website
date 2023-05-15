@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+   .hero-grid {
+      grid-template-columns: 1fr auto 1fr;
+   }
+}
